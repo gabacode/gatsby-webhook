@@ -1,0 +1,13 @@
+{
+  "name": "gatsby-webhook",
+  "version": "1.0.0",
+  "description": "Gatsby webhook",
+  "main": "index.js",
+  "author": "Gabriele Scalici <gaba@totel.it>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}
+
