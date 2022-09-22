@@ -14,6 +14,10 @@ router.post("/deploy", (_, res) => {
   exec(`cd ${PATH} && ${CMD}`).stdout.pipe(process.stdout);
 });
 
+router.get("/status", (_, res) => {
+  res.send("Server is running");
+});
+
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
